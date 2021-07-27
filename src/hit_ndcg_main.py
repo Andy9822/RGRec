@@ -11,11 +11,8 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 test_sample_folder = {}
 
-test_sample_folder["movie_1M_30"] = ["15856167705488741",
-                                     "15856129207194457",
-                                     "15855930409478912",
-                                     "1585499171588716",
-                                     "1585574732984896"]
+# Here test models trained by its id (contained in the filename)
+test_sample_folder["movie_1M_30"] = ["1627426429014359"]
 
 def get_user_nega_data_dict(file_path):
     print("Load user nega dict from {}".format(file_path))

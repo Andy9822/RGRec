@@ -16,7 +16,7 @@ def train_rgrec(rgrec, rule_id_list, model_file, eval_file_path, train_data_labe
                 test_data_label):
     lr = args.rkgcn_lr
     l2_weight = args.rkgcn_l2_weight
-    n_epochs = args.rkgcn_n_epochs
+    n_epochs = 5 #args.rkgcn_n_epochs I dont want to wait a lifetime to test it so yeah
     batch_size = args.rkgcn_batch_size
 
     optimizer = torch.optim.Adam(rgrec.parameters(), lr=lr, weight_decay=l2_weight)
