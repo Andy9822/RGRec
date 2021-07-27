@@ -1,0 +1,27 @@
+Relation num 26
+0	0
+inv_0	1
+1	2
+inv_1	3
+2	4
+inv_2	5
+3	6
+inv_3	7
+4	8
+inv_4	9
+5	10
+inv_5	11
+6	12
+inv_6	13
+7	14
+inv_7	15
+8	16
+inv_8	17
+9	18
+inv_9	19
+10	20
+inv_10	21
+11	22
+inv_11	23
+interact	24
+inv_interact	25

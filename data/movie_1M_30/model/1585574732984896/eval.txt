@@ -1,0 +1,126 @@
+rkgcn_dim	8
+rkgcn_l2_weight	0.0001
+rkgcn_lr	0.0005
+rkgcn_batch_size	64
+rkgcn_n_epochs	100
+rkgcn_dropout	0
+rkgcn_max_step	3
+rkgcn_neighbour_size	4
+rule_seg	->
+kg_file	../data/movie_1M_30/inv_kg_final
+user_nega_data_file	../data/movie_1M_30/model/negative_data.txt
+entity_file	../data/movie_1M_30/entity_name2id.txt
+relation_file	../data/movie_1M_30/relation_name2id.txt
+rule_file	../data/movie_1M_30/model/rule.txt
+train_file	../data/movie_1M_30/model/train.npy
+eval_file	../data/movie_1M_30/model/eval.npy
+test_file	../data/movie_1M_30/model/test.npy
+converted_rating_file	../data/movie_1M_30/converted_ratings_final.npy
+sampled_ht_ratio	0.8
+chi_thresh	0.01
+filter_inv_pattern	False
+reserved_rule_num_by_frequency	10000
+aggregator_name	concat_aggreator
+rkgcn_model_root_path	../data/movie_1M_30/model/
+pra_l2_weight	0.0001
+pra_lr	0.0005
+pra_batch_size	256
+pra_n_epochs	100
+pra_model_file_path	../data/movie_1M_30/model/pra_model.tar
+pre_train_rule_weight	True
+freeze_rule_weight	False
+rule_weight_file_path	../data/movie_1M_30/model/rule_weight.npy
+train_feature_file	../data/movie_1M_30/model/train_feature_label.npy
+eval_feature_file	../data/movie_1M_30/model/eval_feature_label.npy
+test_feature_file	../data/movie_1M_30/model/test_feature_label.npy
+
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 2
+train auc: 0.8919  f1: 0.8120 prec: 0.7898 reca: 0.8405
+eval auc: 0.8882  f1: 0.8101 prec: 0.7873 reca: 0.8393
+test auc: 0.8888  f1: 0.8101 prec: 0.7895 reca: 0.8367
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 5
+train auc: 0.9003  f1: 0.8222 prec: 0.7970 reca: 0.8537
+eval auc: 0.8937  f1: 0.8169 prec: 0.7907 reca: 0.8499
+test auc: 0.8935  f1: 0.8161 prec: 0.7930 reca: 0.8455
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 8
+train auc: 0.9104  f1: 0.8339 prec: 0.8106 reca: 0.8631
+eval auc: 0.9005  f1: 0.8255 prec: 0.8012 reca: 0.8558
+test auc: 0.9007  f1: 0.8245 prec: 0.8030 reca: 0.8518
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 11
+train auc: 0.9128  f1: 0.8362 prec: 0.8129 reca: 0.8652
+eval auc: 0.9019  f1: 0.8263 prec: 0.8024 reca: 0.8562
+test auc: 0.9019  f1: 0.8258 prec: 0.8046 reca: 0.8526
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 14
+train auc: 0.9154  f1: 0.8389 prec: 0.8190 reca: 0.8641
+eval auc: 0.9036  f1: 0.8271 prec: 0.8065 reca: 0.8534
+test auc: 0.9031  f1: 0.8258 prec: 0.8079 reca: 0.8491
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 17
+train auc: 0.9189  f1: 0.8424 prec: 0.8229 reca: 0.8671
+eval auc: 0.9051  f1: 0.8290 prec: 0.8091 reca: 0.8543
+test auc: 0.9049  f1: 0.8287 prec: 0.8108 reca: 0.8518
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 20
+train auc: 0.9227  f1: 0.8470 prec: 0.8262 reca: 0.8731
+eval auc: 0.9066  f1: 0.8315 prec: 0.8106 reca: 0.8580
+test auc: 0.9066  f1: 0.8313 prec: 0.8123 reca: 0.8558
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 23
+train auc: 0.9253  f1: 0.8497 prec: 0.8326 reca: 0.8716
+eval auc: 0.9078  f1: 0.8328 prec: 0.8151 reca: 0.8557
+test auc: 0.9074  f1: 0.8315 prec: 0.8160 reca: 0.8521
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 26
+train auc: 0.9270  f1: 0.8519 prec: 0.8331 reca: 0.8756
+eval auc: 0.9091  f1: 0.8339 prec: 0.8150 reca: 0.8582
+test auc: 0.9089  f1: 0.8331 prec: 0.8156 reca: 0.8558
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 29
+train auc: 0.9290  f1: 0.8545 prec: 0.8342 reca: 0.8798
+eval auc: 0.9100  f1: 0.8350 prec: 0.8141 reca: 0.8615
+test auc: 0.9098  f1: 0.8342 prec: 0.8157 reca: 0.8581
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 32
+train auc: 0.9304  f1: 0.8556 prec: 0.8385 reca: 0.8772
+eval auc: 0.9107  f1: 0.8360 prec: 0.8181 reca: 0.8590
+test auc: 0.9106  f1: 0.8347 prec: 0.8196 reca: 0.8549
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 38
+train auc: 0.9319  f1: 0.8587 prec: 0.8384 reca: 0.8840
+eval auc: 0.9110  f1: 0.8358 prec: 0.8152 reca: 0.8620
+test auc: 0.9117  f1: 0.8370 prec: 0.8183 reca: 0.8607
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 41
+train auc: 0.9324  f1: 0.8578 prec: 0.8405 reca: 0.8798
+eval auc: 0.9116  f1: 0.8369 prec: 0.8192 reca: 0.8598
+test auc: 0.9119  f1: 0.8353 prec: 0.8201 reca: 0.8556
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 47
+train auc: 0.9334  f1: 0.8598 prec: 0.8413 reca: 0.8829
+eval auc: 0.9117  f1: 0.8365 prec: 0.8178 reca: 0.8605
+test auc: 0.9117  f1: 0.8364 prec: 0.8196 reca: 0.8584
+
+../data/movie_1M_30/model/1585574732984896/rkgcn_model.tar
+epoch 50
+train auc: 0.9331  f1: 0.8599 prec: 0.8416 reca: 0.8827
+eval auc: 0.9120  f1: 0.8369 prec: 0.8191 reca: 0.8599
+test auc: 0.9122  f1: 0.8371 prec: 0.8209 reca: 0.8584
